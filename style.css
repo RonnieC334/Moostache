@@ -1,0 +1,22 @@
+h3 {
+    font-size: 29px !important;
+}
+.btn-success:hover {
+    background-color: rgba(172, 255, 47, 0.918);
+}
+
+canvas {
+    animation-name: change ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: blueviolet;
+}
+
+@keyframes change {
+    from{
+        box-shadow: 1px 33px 400px rgb(215, 252, 8);
+    }
+    to{
+        box-shadow: 1px 1px 400px rgb(38, 248, 203) ;
+    }
+}
